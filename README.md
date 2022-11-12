@@ -12,7 +12,7 @@ Describe what your project is about and what it does
 ### Files used
 Include the files used
 
-### Credits
+### Giving proper Credits refactoring file
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 def get_city():
     '''Asks the user for a city and returns the filename for that city's bike share data.
@@ -36,6 +36,7 @@ def get_city():
             print('Sorry, I do not understand your input. Please input either '
                   'Chicago, New York, or Washington.')
 
+<<<<<<< HEAD
 def get_time_period():
     '''Asks the user for a time period and returns the specified filter.
     Args:
@@ -389,3 +390,9 @@ if __name__ == "__main__":
 	statistics()
     
     
+||||||| 6c59345
+=======
+### changed statistics to stats on bikeshare
+### changed get_time_period to get_period on bikeshare
+
+>>>>>>> refactoring
